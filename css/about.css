@@ -1,0 +1,12 @@
+#about{
+  padding:17px 23%;
+}
+.about_text{
+  margin:21px 0;
+  font-size:13px;
+}
+.about_title{
+  font-weight:bold;
+  font-size:15px;
+  padding-bottom:3px;
+}

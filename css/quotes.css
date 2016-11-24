@@ -1,0 +1,55 @@
+.head{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  background-color:transparent!important;
+  z-index:1000;
+  border:0;
+}
+.head_link:hover{
+  background-color:transparent;
+  color:#969696;
+}
+.welcome_main{
+  background-image:url('/images/layer_1.jpg');
+  background-repeat:no-repeat;
+  height:510px;
+  background-position:center 25%;
+  background-size:cover;
+  position:relative;
+  transition:background .1s ease;
+}
+.welcome_layer{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity:0.65;
+  filter:alpha(opacity=65);
+  background:#1f212b;
+}
+.welcome_desc{
+  position:absolute;
+  top:97px;
+  left:0;
+  right:0;
+  text-align:center;
+  padding:74px 25%;
+  color:#FFF;
+  line-height:43px;
+}
+.welcome_desc_title{
+  padding-bottom:21px;
+  font-size:22px;
+}
+.quotes_wrap{
+  margin:67px 27%;
+  font-size:15px;
+  line-height:23px;
+}
+.quote{
+  margin:34px 0;
+  font-size:17px;
+}

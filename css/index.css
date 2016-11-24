@@ -1,0 +1,48 @@
+.post{
+  margin-bottom:44px;
+}
+.post:last-child{
+  margin-bottom:0!important;
+}
+.post_photo{
+  float:left;
+}
+.post_wrap{
+  margin-left:67px;
+  padding-top:2px;
+}
+.post_author{
+  font-size: 15px;
+}
+.post_photo{
+   width:53px;
+   height:53px;
+}
+.like{
+  float: right;
+  height:25px;
+  line-height:25px;
+  padding:0 11px;
+  border-radius:2px;
+  cursor: pointer;
+  transition:background .1s ease;
+    color: #4078c0;
+}
+.like:hover{
+
+    background: #EFEFEF;
+}
+.post_counters{
+}
+.post_body{
+  padding:2px 0;
+}
+.like_num{
+  padding-left:4px;
+}
+.date{
+  color:#808080;
+}
+.divider{
+  color:#808080;
+}
