@@ -8,7 +8,7 @@ class Controller_Main extends Controller {
   }
 
   function action_index() {
-    $i18n = $this->i18n->get(array('welcome', 'welcome_title', 'welcome_text'));
+    $i18n = $this->i18n->get(array('welcome'));
     $param['css'] = array('index');
     $param['title'] = $i18n['welcome'];
     $this->view->generate('main_view.php', 'template_view.php', $param, $data, $i18n);
