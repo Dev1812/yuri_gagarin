@@ -18,11 +18,11 @@
 .author_photo{
   width:42px;
   height:42px;
-  border-radius:3px;
+  border-radius:97px;
   float:left;
 }
 .post_text{
-  line-height:20px;
+  line-height:18px;
   color:#333;
 }
 .post_wrap{
@@ -32,5 +32,6 @@
 .post_date{
   color:#808080;
 }
-.post_author{font-weight: bold;
+.post_author{
+  font-size:14px;
 }
