@@ -4,7 +4,6 @@ class Controller_Main extends Controller {
   function __construct() {
     $this->i18n = new i18n;
     $this->view = new View;
-    $this->model = new Model_Main;
   }
 
   function action_index() {
