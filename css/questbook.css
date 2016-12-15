@@ -1,19 +1,17 @@
 #questbook{
   width:100%;
-  max-width:540px;
+  max-width:570px;
   margin: 67px auto;
 }
 .create_msg{
-  margin-bottom:27px;
+  margin:0 14px 27px;
 }
 .post{
   padding:11px 0;
   border-bottom:1px solid #EEE;
   cursor:pointer;
   font-size:13px;
-}
-.post:last-child{
-  border-bottom:0;
+  margin:0 15px;
 }
 .author_photo{
   width:42px;
@@ -34,4 +32,19 @@
 }
 .post_author{
   font-size:14px;
+}
+.new_post{
+  transition:background .27s ease;
+  -webkit-animation-duration: 1s;
+  -webkit-animation:new_post .39s ease;
+  animation-duration: 1s;
+  animation:new_post .39s ease;
+}
+@-webkit-keyframes new_post {
+ from {background:#ffdacf;}
+ to {background:#ffefea;}
+}
+@keyframes new_post {
+ from {background:#ffdacf;}
+ to {background:#ffefea;}
 }
